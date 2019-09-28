@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="./css/vending-machine.css">
+  <script type="text/javascript" src="./script/jquery-3.4.1.min.js" ></script>
+  <script type="text/javascript" src="./script/vending-machine.js"></script>
+  <title>VendingMachine</title>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-logo">★VendingMachine★</div><br>
+  </header>
+  <!-- 飲み物の種類ボタン -->
+  <div class="menu-btn">
+    <div class="drinkBtn1">
+      <input type="button" name="コーラ" value="コーラ">
+      <input type="button" name="紅茶" value="紅茶">
+      <input type="button" name="水" value="水">
+      <input type="button" name="コーヒー" value="コーヒー">
+      <input type="button" name="お茶" value="お茶">
+    </div>
+    <div class="payment">
+      <input id="drinkBtn-cora" type="button" name="" value="150">
+      <input id="drinkBtn-tea" type="button" name="" value="150">
+      <input id="drinkBtn-water" type="button" name="" value="100">
+      <input id="drinkBtn-cofee" type="button" name="" value="120">
+      <input id="drinkBtn-greenTea" type="button" name="" value="140">
+    </div>
+    <div class="counter">
+      <input id="cora-count" type="text" name="" value="5" size="15">
+      <input id="tea-count" type="text" name="" value="5" size="15">
+      <input id="water-count" type="text" name="" value="5" size="15">
+      <input id="cofee-count" type="text" name="" value="5" size="15">
+      <input id="greenTea-count" type="text" name="" value="5" size="15">
+    </div>
+    <div class="drinkBtn2">
+      <input type="button" name="ペプシ" value="ペプシ">
+      <input type="button" name="レモンティー" value="レモンティー">
+      <input type="button" name="ビール" value="ビール">
+      <input type="button" name="ミルクティー" value="ミルクティー">
+      <input type="button" name="牛乳" value="牛乳">
+    </div>
+    <div class="counter">
+      <input id="pepusi-count" type="text" name="" value="5" size="15">
+      <input id="lemonTea-count" type="text" name="" value="5" size="15">
+      <input id="beer-count" type="text" name="" value="5" size="15">
+      <input id="milkTea-count" type="text" name="" value="5" size="15">
+      <input id="milk-count" type="text" name="" value="5" size="15">
+    </div>
+    <div class="payment">
+      <input id="drinkBtn-pepusi" type="button" name="" value="150">
+      <input id="drinkBtn-lemonTea" type="button" name="" value="150">
+      <input id="drinkBtn-beer" type="button" name="" value="250">
+      <input id="drinkBtn-milk-Tea" type="button" name="" value="150">
+      <input id="drinkBtn-milk" type="button" name="" value="120">
+    </div><br>
+  </div>
+  <!-- お金の種類 -->
+  <div class="allMoney">
+    <div class="money">
+      <input id="moneyBtn10" type="button" name="10円" value="10円">
+      <input id="moneyBtn50" type="button" name="50円" value="50円">
+      <input id="moneyBtn100" type="button" name="100円" value="100円">
+      <input id="moneyBtn500" type="button" name="500円" value="500円">
+      <input id="moneyBtn1000" type="button" name="1000円" value="1000円">
+      <!-- おつりボタン -->
+      <input id="return-money" type="button" name="おつり" value="おつり">
+    </div>
+  <!-- 金額表示 -->
+  <div class="screen" >
+    <p>★投入金額★<p>
+    <input id="scr" type="text" name="金額" value="0">
+    <p>★使用合計金額★<p>
+    <input id="scr2" type="text" name="金額" value="0">
+  </div>
+  <!--買ったものの表示-->
+    <div class="shopping-list">
+      <p>--------★購入リスト★--------</p>
+      <textarea id="list" name="area1" class="sample3" cols="40" rows="8"></textarea>
+    </div>
+  </div>
+</body>
+</html>

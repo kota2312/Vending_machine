@@ -1,0 +1,97 @@
+body {
+  background-color: #FF0000;
+}
+
+.menu-btn {
+  margin-top: 20px;
+
+}
+.screen {
+margin-left: 1200px;
+margin-top:60px
+}
+header {
+  border-bottom: solid 3px black;
+}
+
+.header-logo {
+text-align: center;
+font-weight: bolder;
+color: black;
+font-size: 50px;
+font-family:'Yu Gothic';
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7)
+
+}
+.drinkBtn2 {
+  margin-top: 10px;
+}
+.payment {
+  margin-top: 10px;
+}
+
+.menu-btn {
+  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: solid 3px black;
+
+}
+
+.money {
+  text-align: center;
+  margin-top: 30px;
+}
+.return-money {
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-btn input[type="button"] {
+  height: 40px;
+  width:140px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #FFDDFF, #eaf6fd);
+  border: 1px solid #3c7fb1;
+}
+.money input[type="button"] {
+  height: 40px;
+  width:100px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #EEEE, #eaf6fd);
+  border: 1px solid #3c7fb1;
+}
+.payment input[type="button"] {
+  background-image: linear-gradient(0deg, #0000FF, #eaf6fd);
+}
+.screen input[type="text"] {
+  height: 40px;
+  width:100px;
+  border-radius: 10px;
+  border: 1px solid #3c7fb1;
+}
+#return-money input[type="button"] {
+  height: 40px;
+  width:100px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #C299FF, #eaf6fd);
+  border: 1px solid #3c7fb1;
+}
+.shopping-list  {
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 600px;
+}
+
+.shopping-list p {
+  padding-left: 50px;
+}
+
+.screen p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media(max-width: 670px) {
+ .item {
+   width: 50%;
+ }
+}
